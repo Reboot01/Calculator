@@ -41,7 +41,7 @@ namespace Calculator
                     }
                 }
 
-                    Console.WriteLine(num1 + num2);
+                Console.WriteLine(num1 + num2);
 
                 Console.ReadKey(true);
                 
