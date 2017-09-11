@@ -28,6 +28,8 @@ namespace Calculator
                         Console.WriteLine("That is not a Number!");
                     }
                 }
+
+                isValidNum = false;
                 while (!isValidNum)
                 {
                     Console.Write("Enter your number: ");
