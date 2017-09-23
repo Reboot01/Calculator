@@ -41,6 +41,8 @@ namespace Calculator
                     {
                         Console.WriteLine("That is not a Number!");
                     }
+
+                    Console.ReadKey(true);
                 }
 
                 Console.WriteLine(num1 + num2);
