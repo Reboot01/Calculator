@@ -45,12 +45,31 @@ namespace Calculator
                     Console.ReadKey(true);
                 }
 
-                Console.WriteLine(num1 + num2);
+                Console.Write("Choose what to do: +, -, *, /");
+                input = Console.ReadLine();
+
+                while (input == "+")
+                {
+                    Console.WriteLine(num1 + num2);
+                }
+
+                while (input == "-")
+                {
+                    Console.WriteLine(num1 - num2);
+                }
+
+                while (input == "*")
+                {
+                    Console.WriteLine(num1 * num2);
+                }
+
+                while (input == "/")
+                {
+                    Console.WriteLine(num1 / num2);
+                }
 
                 Console.ReadKey(true);
-                
             }
-
         }
     }
 }
