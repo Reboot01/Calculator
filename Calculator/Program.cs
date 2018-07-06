@@ -53,17 +53,17 @@ namespace Calculator
                     Console.WriteLine(num1 + num2);
                 }
 
-                while (input == "-")
+                if (input == "-")
                 {
                     Console.WriteLine(num1 - num2);
                 }
 
-                while (input == "*")
+                if (input == "*")
                 {
                     Console.WriteLine(num1 * num2);
                 }
 
-                while (input == "/")
+                if (input == "/")
                 {
                     Console.WriteLine(num1 / num2);
                 }
